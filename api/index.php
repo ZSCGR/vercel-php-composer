@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use zjkal\TimeHelper\TimeHelper;
+use zjkal/time-helper\TimeHelper;
 
 /*Tracy\Debugger::enable(Tracy\Debugger::DEVELOPMENT);*/
 TimeHelper::secondEndToday();
