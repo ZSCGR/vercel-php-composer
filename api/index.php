@@ -5,7 +5,6 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use Carbon\Carbon;
 
 printf("Right now is %s", Carbon::now()->toDateTimeString());
-printf("Right now in Vancouver is %s", Carbon::now('America/Vancouver'));  //implicit __toString()
 $tomorrow = Carbon::now()->addDay();
 $lastWeek = Carbon::now()->subWeek();
 
@@ -13,7 +12,7 @@ $officialDate = Carbon::now()->toRfc2822String();
 
 $howOldAmI = Carbon::createFromDate(1975, 5, 21)->age;
 
-$noonTodayLondonTime = Carbon::createFromTime(12, 0, 0, 'Europe/London');
+$noonTodayLondonTime = Carbon::createFromTime(12, 0, 0, 'Asia/Shanghai');
 
 $internetWillBlowUpOn = Carbon::create(2038, 01, 19, 3, 14, 7, 'GMT');
 
