@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use jkal\TimeHelper;
+use zjkal\TimeHelper;
 
 /* 获取当前秒级的时间戳 */
 $timestamp = TimeHelper::getTimestamp();
