@@ -3,9 +3,8 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 /* 获取当前秒级的时间戳 */
-$timestamp = TimeHelper::getTimestamp();
-echo "当前秒级时间戳：$timestamp\n";
-
+TimeHelper::getTimestamp();
+/*
 /* 获取当前毫秒级的时间戳 */
 $milliTimestamp = TimeHelper::getMilliTimestamp();
 echo "当前毫秒级时间戳：$milliTimestamp\n";
@@ -20,5 +19,5 @@ echo "当前星期几：$weekDay\n";
 
 /* 检查今年是否是闰年 */
 $isLeapYear = TimeHelper::isLeapYear();
-echo "今年是否是闰年：$isLeapYear\n";
+echo "今年是否是闰年：$isLeapYear\n";*/
 
