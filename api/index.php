@@ -6,6 +6,6 @@ use Carbon\Carbon;
 use zjkal/time-helper
 
 printf("Right now is %s", Carbon::now()->toDateTimeString());
-printf("Right now is %s", TimeHelper::secondEndToday(););
+printf("Right now is %s", TimeHelper::secondEndToday());
 
 
