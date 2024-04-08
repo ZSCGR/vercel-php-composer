@@ -2,8 +2,6 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use zjkal\TimeHelper;
-
 /* 获取当前秒级的时间戳 */
 $timestamp = TimeHelper::getTimestamp();
 echo "当前秒级时间戳：$timestamp\n";
